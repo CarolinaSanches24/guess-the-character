@@ -15,16 +15,6 @@ export const StartScreen = ({ startGame }) => {
       >
         Começar o jogo
       </button>
-      <img
-        src="./assets/img/eren.gif"
-        alt="Personagem Eren"
-        className={styles.image_Eren}
-      />
-      <img
-        src="./assets/img/goku.gif"
-        alt="Personagem Eren"
-        className={styles.image_Goku}
-      />
     </section>
   );
 };

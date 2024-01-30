@@ -5,33 +5,3 @@
 .start_paragrafo {
   color: var(--color-dark-orange);
 }
-.image_Eren {
-  position: relative;
-  top: -200px;
-  left: -350px;
-}
-.button_start {
-  position: relative;
-  top: -300px;
-  left: 400px;
-}
-.image_Goku {
-  position: relative;
-  top: -200px;
-  left: 100px;
-  width: 400px;
-}
-@media screen and (max-width: 768px) {
-  .image_Eren {
-    display: none;
-  }
-  .image_Goku {
-    top: -20px;
-    left: 15px;
-    width: 200px;
-  }
-  .button_start {
-    top: 300px;
-    left: 5px;
-  }
-}
