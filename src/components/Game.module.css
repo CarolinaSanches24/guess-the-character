@@ -1,0 +1,71 @@
+.game_title {
+  font-size: 2.5em;
+  font-family: var(--font-GothTitan);
+}
+.game_points span {
+  font-weight: bold;
+}
+.game_tip span {
+  color: var(--color-dark-orange);
+}
+.wordContainer {
+  margin: 1em;
+  padding: 1.5em;
+  border: 20px solid var(--color-dark-orange);
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(241, 145, 145, 0.989);
+  box-sizing: border-box;
+  display: flex;
+}
+.letter,
+.blankSquare {
+  font-size: 70px;
+  line-height: 1.5;
+  border: 3px solid var(--color-Brown);
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-weight: bold;
+}
+.letterContainer p {
+  margin-bottom: em;
+}
+.letterContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.letterContainer input {
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  text-align: center;
+  margin-right: 1em;
+}
+.letterContainer input:focus {
+  box-shadow: 5px 5px 5px rgba(241, 145, 145, 0.989);
+  outline: none;
+  border: 2px solid var(--color-dark-orange);
+  border-radius: 10px;
+}
+.wrongLettersContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 40px;
+}
+
+@media screen and (max-width: 728px) {
+  .wordContainer {
+    position: relative;
+    left: 20px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  .blankSquare {
+    width: 50px;
+    height: 50px;
+  }
+}

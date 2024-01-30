@@ -1,0 +1,46 @@
+:root {
+  --color-white: #fff;
+  --color-dark-orange: #ff8c00;
+  --color-dark-red: #8b0000;
+  --color-Brown: #a52a2a;
+  --color-black: #000;
+  --font-GothTitan: "GothTitan";
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, rgb(168, 7, 7) 0%, rgba(0, 0, 0, 1) 100%);
+  color: var(--color-white);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background: var(--color-dark-red);
+  color: var(--color-white);
+  padding: 0 45px;
+  border: 2px solid var(--color-white);
+  border-radius: 20px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.8s;
+}
+button:hover {
+  background-color: var(--color-Brown);
+  box-shadow: 2px 5px 15px rgba(238, 93, 15, 0.868);
+}
+button:focus {
+  border: 5px solid var(--color-dark-orange);
+  outline: none;
+}
+@font-face {
+  font-family: "GothTitan";
+  src: url("./fonts/GothTitan.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
